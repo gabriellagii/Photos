@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F6F3"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    tools:context=".activities.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Encabezado de bienvenida -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="32dp"
+            android:paddingBottom="28dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📸"
+                android:textSize="48sp"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/textViewBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="¡Bienvenido!"
+                android:textColor="#285C4D"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#285C4D"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Tarjeta: Tomar foto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp"
+            android:background="@drawable/bg_tarjeta_menu"
+            android:elevation="3dp">
+
+            <!-- Botón cerrar sesión -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonTomarFoto"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:onClick="tomarFoto"
+                android:text="Tomar foto"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="#285C4D"
+                app:cornerRadius="14dp"
+                app:icon="@android:drawable/ic_menu_camera"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                app:iconTint="#FFFFFF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonVerFotos"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="10dp"
+                android:onClick="verFotos"
+                android:text="Ver mis fotos"
+                android:textAllCaps="false"
+                android:textColor="#285C4D"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="#E2EEE7"
+                app:cornerRadius="14dp"
+                app:icon="@android:drawable/ic_menu_gallery"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                app:iconTint="#285C4D" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCerrarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="10dp"
+                android:onClick="cerrarSesion"
+                android:text="Cerrar sesión"
+                android:textAllCaps="false"
+                android:textColor="#B42318"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FCE8E6"
+                app:cornerRadius="14dp"
+                app:icon="@android:drawable/ic_lock_power_off"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                app:iconTint="#B42318" />
+
+        </LinearLayout>
+
+        <!-- Tarjeta: foto tomada (se muestra solo después de tomar la foto) -->
+        <LinearLayout
+            android:id="@+id/layoutDatosFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_tarjeta_menu"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nueva fotografía"
+                android:textColor="#20352C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewFoto"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_marco_foto"
+                android:contentDescription="Foto tomada"
+                android:padding="4dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textViewUbicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Ubicación"
+                android:textColor="#285C4D"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editTextComentario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/fondo_campo"
+                android:gravity="top|start"
+                android:hint="Escribe un comentario"
+                android:inputType="textMultiLine|textCapSentences"
+                android:minLines="2"
+                android:padding="12dp"
+                android:textColor="#20352C"
+                android:textSize="15sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="14dp"
+                android:onClick="guardarFoto"
+                android:text="Guardar foto"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="#285C4D"
+                app:cornerRadius="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
