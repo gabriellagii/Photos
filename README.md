@@ -170,7 +170,8 @@ Ejecuta la aplicación con Run.
 
 🖌️ Bocetos en Balsamiq
 1. Inicio de sesión.
-<p align="center"><img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" /></p>
+<p align="center"><img width="338" height="682" alt="photos_1" src="https://github.com/user-attachments/assets/ed67c725-94ac-4afb-9895-d1d2f1006232" /></p>
+
 
 2. Registro de usuario.
 <p align="center"><img width="337" height="687" alt="photos_2" src="https://github.com/user-attachments/assets/4c5c0816-9a84-41dc-9240-680e008238e5" /></p>
