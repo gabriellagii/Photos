@@ -169,13 +169,11 @@ Conecta un dispositivo Android o inicia un emulador.
 Ejecuta la aplicación con Run.
 
 🖌️ Bocetos en Balsamiq
+1. Inicio de sesión.
+<p align="center"><img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" /></p>
 
-
-
-<p align="center">Inicio de sesión. \n <img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" /></p>
-
-
-Registro de usuario.
+2. Registro de usuario.
+<p align="center"><img width="337" height="687" alt="photos_2" src="https://github.com/user-attachments/assets/4c5c0816-9a84-41dc-9240-680e008238e5" /></p>
 
 Menú principal y captura de fotografías.
 
