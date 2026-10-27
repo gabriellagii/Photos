@@ -159,13 +159,13 @@ La ubicación puede no estar disponible si el usuario no concede los permisos o 
 <p align="center"><img width="20%" alt="photos_1" src="https://github.com/user-attachments/assets/ed67c725-94ac-4afb-9895-d1d2f1006232" /></p>
 
 2. Registro de usuario.
-<p align="center"><img width="337" height="687" alt="photos_2" src="https://github.com/user-attachments/assets/4c5c0816-9a84-41dc-9240-680e008238e5" /></p>
+<p align="center"><img width="20%" alt="photos_2" src="https://github.com/user-attachments/assets/4c5c0816-9a84-41dc-9240-680e008238e5" /></p>
 
 3. Pantalla principal
-<p align="center"><img width="336" height="687" alt="photos_3" src="https://github.com/user-attachments/assets/ea55f833-d2d4-4a7b-a2bb-e0064379cf08" /></p>
+<p align="center"><img width="20%" alt="photos_3" src="https://github.com/user-attachments/assets/ea55f833-d2d4-4a7b-a2bb-e0064379cf08" /></p>
 
 4. Foto nueva
-<p align="center"><img width="338" height="686" alt="photos_4" src="https://github.com/user-attachments/assets/c61678b0-5759-4504-be30-d2a4094b3394" /></p>
+<p align="center"><img width="20%" alt="photos_4" src="https://github.com/user-attachments/assets/c61678b0-5759-4504-be30-d2a4094b3394" /></p>
 
 5. Ver fotos
-<p align="center"><img width="336" height="686" alt="photos_5" src="https://github.com/user-attachments/assets/a57258f6-a344-4eb1-b080-3cf7e966b1ce" /></p>
+<p align="center"><img width="20%" alt="photos_5" src="https://github.com/user-attachments/assets/a57258f6-a344-4eb1-b080-3cf7e966b1ce" /></p>
