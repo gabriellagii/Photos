@@ -71,39 +71,22 @@ Salida de la cuenta actual.
 
 🛠️ Tecnologías utilizadas
 
-🤖 Android Studio
+    🤖 Android Studio
+    
+    💜 Kotlin
+    
+    🗄️ SQLite
+    
+    📍 Google Play Services Location
+    
+    📸 Cámara de Android
+    
+    🔒 SHA-256 con sal para el tratamiento de contraseñas
+    
+    🌐 Git y GitHub
+    
+    📱 Pantallas de la aplicación
 
-💜 Kotlin
-
-🗄️ SQLite
-
-📍 Google Play Services Location
-
-📸 Cámara de Android
-
-🔒 SHA-256 con sal para el tratamiento de contraseñas
-
-🌐 Git y GitHub
-
-📱 Pantallas de la aplicación
-
-Inicio de sesión
-
-Registro
-
-Validación de correo y contraseña.
-
-Formulario de creación de cuenta.
-
-Menú principal
-
-Galería
-
-Captura, vista previa, comentario y ubicación.
-
-Consulta de fotografías y sus detalles.
-
-Para mostrar capturas reales en esta sección, agrega las imágenes a docs/ y utiliza etiquetas Markdown como ![Inicio de sesión](docs/login.png).
 
 🗃️ Base de datos
 
