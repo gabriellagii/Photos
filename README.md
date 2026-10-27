@@ -170,11 +170,9 @@ Ejecuta la aplicación con Run.
 
 🖌️ Bocetos en Balsamiq
 
-El diseño contempla cuatro pantallas:
 
-Inicio de sesión.
 
-<p align="center"><img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" /></p>
+<p align="center">Inicio de sesión. \n <img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" /></p>
 
 
 Registro de usuario.
