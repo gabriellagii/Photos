@@ -141,26 +141,8 @@ fecha: fecha del registro en milisegundos Unix.
 
 🧩 Estructura del proyecto
 
-Photos/
-├── app/
-│   └── src/main/
-│       ├── java/xyz/ggarcia/photos/
-│       │   ├── MainActivity.kt
-│       │   ├── activities/
-│       │   │   ├── RegistroActivity.kt
-│       │   │   ├── MenuActivity.kt
-│       │   │   └── ListaFotosActivity.kt
-│       │   ├── data/
-│       │   │   ├── DatabaseHelper.kt
-│       │   │   └── Foto.kt
-│       │   └── utils/
-│       │       ├── Imagenes.kt
-│       │       └── Seguridad.kt
-│       └── res/
-├── docs/
-│   └── photos-presentacion.png
-├── README.md
-└── .gitignore
+<img width="487" height="616" alt="estructura_photos" src="https://github.com/user-attachments/assets/25bf6a01-c4c5-40fb-80d3-96b99cb79a49" />
+
 
 🔑 Permisos de Android
 
