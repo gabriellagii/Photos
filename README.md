@@ -173,6 +173,7 @@ Ejecuta la aplicación con Run.
 El diseño contempla cuatro pantallas:
 
 Inicio de sesión.
+<img width="487" height="616" alt="estructura_photos" src="https://github.com/user-attachments/assets/c7fe150f-c767-4c23-9a29-7a4d6e4c9a2c" />
 
 Registro de usuario.
 
