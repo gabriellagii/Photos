@@ -141,7 +141,7 @@ fecha: fecha del registro en milisegundos Unix.
 
 🧩 Estructura del proyecto
 
-<img width="487" height="616" alt="estructura_photos" src="https://github.com/user-attachments/assets/25bf6a01-c4c5-40fb-80d3-96b99cb79a49" />
+<img width="30%" alt="estructura_photos" src="https://github.com/user-attachments/assets/25bf6a01-c4c5-40fb-80d3-96b99cb79a49" />
 
 
 🔑 Permisos de Android
@@ -154,24 +154,9 @@ fecha: fecha del registro en milisegundos Unix.
 
 La ubicación puede no estar disponible si el usuario no concede los permisos o el dispositivo no obtiene coordenadas.
 
-🚀 Instalación
-
-Clona el repositorio:
-
-git clone https://github.com/gabriellagii/Photos.git
-
-Abre la carpeta Photos en Android Studio.
-
-Espera a que finalice la sincronización de Gradle.
-
-Conecta un dispositivo Android o inicia un emulador.
-
-Ejecuta la aplicación con Run.
-
 🖌️ Bocetos en Balsamiq
 1. Inicio de sesión.
 <p align="center"><img width="338" height="682" alt="photos_1" src="https://github.com/user-attachments/assets/ed67c725-94ac-4afb-9895-d1d2f1006232" /></p>
-
 
 2. Registro de usuario.
 <p align="center"><img width="337" height="687" alt="photos_2" src="https://github.com/user-attachments/assets/4c5c0816-9a84-41dc-9240-680e008238e5" /></p>
@@ -184,13 +169,3 @@ Ejecuta la aplicación con Run.
 
 5. Ver fotos
 <p align="center"><img width="336" height="686" alt="photos_5" src="https://github.com/user-attachments/assets/a57258f6-a344-4eb1-b080-3cf7e966b1ce" /></p>
-
-
-📂 Repositorio
-
-🔗 GitHub: https://github.com/gabriellagii/Photos
-
-
-<p align="center">
-  📸 <strong>PHOTOS</strong> — Captura, almacena y consulta tus fotografías.
-</p>
