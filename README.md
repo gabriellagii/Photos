@@ -174,7 +174,7 @@ El diseño contempla cuatro pantallas:
 
 Inicio de sesión.
 
-<img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" />
+<p align="center"><img width="356" height="722" alt="photos_1" src="https://github.com/user-attachments/assets/3f0f333c-dd80-4ce0-9444-3cd716ce7dc2" /></p>
 
 
 Registro de usuario.
