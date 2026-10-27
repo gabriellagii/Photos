@@ -2,9 +2,9 @@
 
 Aplicación Android para capturar, almacenar y consultar fotografías con ubicación GPS
 
-<p align="center">
+<!-- <p align="center">
   <img src="docs/photos-presentacion.png" alt="Presentación de la aplicación Photos" width="850">
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/Plataforma-Android-3DDC84?logo=android&logoColor=white" alt="Android">
